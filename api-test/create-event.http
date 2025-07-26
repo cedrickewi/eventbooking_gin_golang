@@ -1,0 +1,10 @@
+POST  http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAbS5jbSIsImV4cCI6MTc1MzU1MjcwNSwidXNlcklkIjoxfQ.HfqHuFaJJloAyKRaioG5my6hoxh3UMVPq-VcyjZfTMM
+
+{
+    "name":" event",
+    "description": "event Description",
+    "location":" Location",
+    "dateTime":"2024-01-01T10:00:00.000Z"
+}

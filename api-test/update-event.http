@@ -1,0 +1,9 @@
+PUT http://localhost:8080/events/2  
+Content-Type: application/json
+
+{
+    "name":"emma event",  
+    "description": "cezzy   event Description",
+    "location":"cezzy   Location",
+    "dateTime":"2024-01-01T10:00:00.000Z"
+}   
